@@ -58,6 +58,7 @@ class ProductListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("My changes....")
         collectionViewSetup()
         setupSearchController()
         tableviewViewSetup()
